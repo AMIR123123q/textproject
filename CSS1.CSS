@@ -1,0 +1,15 @@
+P.first{
+    font-size: 20;
+    font-family: 'Courier New', Courier, monospace;
+    color:darkblue;
+    background-color: #00ffff;
+    text-align: center;}
+*{color:gray}  LI.A{font-size: 33px;}     h1.headline{
+    border-left-style: double;    border-bottom-left-radius: 30px
+    ;  border-right-style: solid; border-right-color: rgba(200, 100, 255, 0.5);background-color:hsl(530, 40%, 45%);
+border-left-width: 20px; border-right-width: 10px; padding: 10px 80px 100px 24px; width:auto; height:auto;
+} .container{
+    background-color:rgb(50, 50, 50);border:6px red dashed;border-top-right-radius: 260px; border-bottom-left-radius: 70px;
+padding: 30px; margin: 15px 5px;} span.introduction{
+    font-size: 22px;text-transform: uppercase; background-color:whitesmoke; border-radius: 6px;
+}
