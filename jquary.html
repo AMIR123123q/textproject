@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title> learn1 element  selector</select> </title> <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-            <script>$(document).ready(function(){}); 
-             //  "or" $(function(){}); </script>
+<html>
 
-<script>
-$("button").click(function() { $(".one").hide()}); </script>
+<head>
+    <title> learn1 element selector</select>
+    </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                console.log("button clicked! ")
+                debugger
+                $(".one").hide()
+            });
+
+        });
+        //  "or" $(function(){});
+    </script>
 
 
-     </head>
-        <body>
-            <h1 class="srtitr" id="titr">learning jquary with me</h1>
-            <p class="one" id="firstparagraph"> first to learn  jquary you should to learn how to select element</p>
-            <button>click me to hide paragraph
+</head>
+
+<body>
+    <h1 class="srtitr" id="titr">learning jquary with me</h1>
+    <p class="one" id="firstparagraph"> first to learn jquary you should to learn how to select element</p>
+    <button>click me to hide paragraph
             </button>
-        </body>
+</body>
 
 
-    </html>
+</html>
