@@ -6,7 +6,17 @@
     </title>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
+        //step1
         $(document).ready(function() {
+            $("button").click(function() {
+                console.log("button clicked! ")
+                debugger
+                $(".one").hide()
+            });
+
+        });
+        //step2
+        $(window).load(function() {
             $("button").click(function() {
                 console.log("button clicked! ")
                 debugger
@@ -21,9 +31,14 @@
 </head>
 
 <body>
-    <h1 class="srtitr" id="titr">learning jquary with me</h1>
-    <p class="one" id="firstparagraph"> first to learn jquary you should to learn how to select element</p>
-    <button>click me to hide paragraph
+    <h1 class="srtitr" id="titr">
+        learning jquary with me
+    </h1>
+    <p class="one" id="firstparagraph">
+        first to learn jquary you should to learn how to select element
+    </p>
+    <button>
+        click me to hide paragraph
             </button>
 </body>
 
